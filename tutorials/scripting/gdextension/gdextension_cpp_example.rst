@@ -634,7 +634,7 @@ are ``PropertyInfo`` types which describe the essentials of each of the method's
 that the parameter will have by default.
 
 So here, we add a signal, with a ``MethodInfo`` which names the signal "position_changed". The
-``PropertyInfo`` parameters describe two esential arguments, one of type ``Object``, the other
+``PropertyInfo`` parameters describe two essential arguments, one of type ``Object``, the other
 of type ``Vector2``, respectively named "node" and "new_pos".
 
 Next, we'll need to change our ``_process`` method:
